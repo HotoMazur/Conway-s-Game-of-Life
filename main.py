@@ -1,5 +1,3 @@
-import time
-
 import pygame
 
 pygame.init()
@@ -92,9 +90,7 @@ while running:
                 fps -= 1
 
     if start_game:
-        start = time.time()
         check_the_life_cell()
-        end = time.time()
 
     screen.fill(white)
     draw_board()
