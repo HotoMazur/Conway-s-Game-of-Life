@@ -95,7 +95,6 @@ while running:
         start = time.time()
         check_the_life_cell()
         end = time.time()
-        print(end - start)
 
     screen.fill(white)
     draw_board()
